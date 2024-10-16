@@ -1,4 +1,4 @@
-FROM openjdk.openjdk:17-jdk-alpine
+FROM openjdk:17-jdk-alpine
 WORKDIR /usr/src/app
 COPY app.java .
 RUN javac app.java
